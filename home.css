@@ -1,0 +1,65 @@
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  width: 140px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top:40px;
+  padding-bottom: 40px;
+  padding: 30px; 
+  color: white;
+  border-radius: 10px;
+  border: 5px solid #ff0000;
+  background-color: black;
+}
+
+#mySidenav a:hover {
+  left: 0;
+  font-size: 26px;
+  text-shadow: 1.8px 1.8px #ff0000;
+}
+
+#m {
+  top: 140px;
+}
+
+#w {
+  top: 290px;
+}
+
+#u {
+  top: 440px;
+}
+
+
+#i{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  filter: blur(2px);
+}
+
+.content{	
+  position: fixed;
+  top: 250px;
+  left:220px;
+  right:220px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.content h1{
+	font-size: 60px;
+	color: white;
+	font-family: "Arial";
+	text-shadow: 4px 4px #ff0000;
+}
+
+.content h4{
+	color: white;
+	font-size: 20px;
+}
